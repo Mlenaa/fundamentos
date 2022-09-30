@@ -2,25 +2,16 @@
 using namespace std;
 int main()
 {
-	float a,b;
-	cout<<"ingrese a b:"; cin>>a>>b;
-	if(a>b)
+	float MLAQ_a,MLAQ_b;
+	cout<<"ingrese MLAQ_a MLAQ_b:"; cin>>MLAQ_a>>MLAQ_b;
+	if(MLAQ_a>MLAQ_b)
 	{
-	  cout<<a<<" es mayor a "<<b<<endl;
+	  cout<<MLAQ_a<<" es mayor MLAQ_a "<<MLAQ_b<<endl;
 
 
-	}else{
+	}else
 
-	  cout<<b<<" es mayor a "<<a<<endl;
-
-
-	}
-
-	return 0;
-
-
-
-
+	  cout<<MLAQ_b<<" es mayor MLAQ_a "<<MLAQ_a<<endl;
 
 
 }
